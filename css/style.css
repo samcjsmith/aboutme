@@ -1,0 +1,113 @@
+body {
+    
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue",     sans-serif;
+    margin: 0;
+        
+}
+
+.masthead{
+  padding: 25em 0;
+  background-image: url("http://static1.squarespace.com/static/568862002399a3a3e501d842/t/56e984b9d51cd4dfd90988b2/1458144495859/?format=1500w");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-shadow: 3px 1px 1px rgba(0,0,0,0.6);
+  
+  border-top: solid 0em #000000;
+
+  
+}
+.masthead-intro{
+  text-align: center;
+  margin-bottom: 0.1em;
+}
+.masthead-heading{
+  text-align: center;
+  margin-top: -0.2em;
+  font-size: 5em;
+    
+}
+
+.header-divider{
+  max-width: 600px;
+  border-top: 1px solid;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  text-align: left;
+  margin-top: 1em;
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p, a {
+  font-family: 'News Cycle', Georgia, serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.1em;
+  color: #686568;
+  margin-top: 1em;
+}
+
+h3 {
+    
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.mastfoot {
+  
+  background-color: #000000;
+  margin-top: 3em;
+  padding: 3em;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0em;
+  padding: 0em;
+}
+
+footer li {
+   display: inline;
+   margin: 5px 5px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+ text-decoration: underline; 
+}
+
+@media screen and (max-width: 200px) {
+  .masthead {
+    padding:  1em 0;
+  }
+  .masthead-heading {
+    font-size: 2em;
+  }
+ .introduction-section,
+  .questions-section,
+  .location-section {
+    margin: 10px;
+  }
+}
